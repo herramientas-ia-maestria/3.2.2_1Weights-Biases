@@ -1,0 +1,140 @@
+{
+    "os": "Linux-6.5.0-15-generic-x86_64-with-glibc2.35",
+    "python": "3.10.12",
+    "heartbeatAt": "2024-02-08T00:37:12.955729",
+    "startedAt": "2024-02-08T00:37:12.071714",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/reroes/Dropbox/personal/clasesUTPL/GUIAS/GUIA-IA-MAESTRIA/EJEMPLOS/3.2.2_1Weights-Biases/demo.py",
+    "codePathLocal": "demo.py",
+    "codePath": "demo.py",
+    "git": {
+        "remote": "https://github.com/herramientas-ia-maestria/3.2.2_1Weights-Biases.git",
+        "commit": "a6689862c876d5efffca25a26e756ab3031fd53b"
+    },
+    "email": "reroes799@gmail.com",
+    "root": "/home/reroes/Dropbox/personal/clasesUTPL/GUIAS/GUIA-IA-MAESTRIA/EJEMPLOS/3.2.2_1Weights-Biases",
+    "host": "reroes-ubuntu",
+    "username": "reroes",
+    "executable": "/home/reroes/entornos/envpy310-ia-maestria-2/bin/python",
+    "cpu_count": 14,
+    "cpu_count_logical": 20,
+    "cpu_freq": {
+        "current": 3005.7356000000004,
+        "min": 400.0,
+        "max": 4320.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2193.377,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 3102.927,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 3352.776,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 3096.749,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 2719.823,
+            "min": 400.0,
+            "max": 4800.0
+        },
+        {
+            "current": 3152.94,
+            "min": 400.0,
+            "max": 4800.0
+        },
+        {
+            "current": 3133.784,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 3215.961,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 3389.491,
+            "min": 400.0,
+            "max": 4800.0
+        },
+        {
+            "current": 3020.63,
+            "min": 400.0,
+            "max": 4800.0
+        },
+        {
+            "current": 3635.24,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 3460.552,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 2802.608,
+            "min": 400.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2853.557,
+            "min": 400.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2814.531,
+            "min": 400.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2862.894,
+            "min": 400.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2865.233,
+            "min": 400.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2815.183,
+            "min": 400.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2805.231,
+            "min": 400.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2821.225,
+            "min": 400.0,
+            "max": 3700.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 937.3305015563965,
+            "used": 400.3081512451172
+        }
+    },
+    "memory": {
+        "total": 31.026721954345703
+    }
+}

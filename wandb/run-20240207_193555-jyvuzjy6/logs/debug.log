@@ -1,0 +1,39 @@
+2024-02-07 19:35:55,903 INFO    MainThread:622469 [wandb_setup.py:_flush():76] Current SDK version is 0.16.3
+2024-02-07 19:35:55,903 INFO    MainThread:622469 [wandb_setup.py:_flush():76] Configure stats pid to 622469
+2024-02-07 19:35:55,903 INFO    MainThread:622469 [wandb_setup.py:_flush():76] Loading settings from /home/reroes/.config/wandb/settings
+2024-02-07 19:35:55,903 INFO    MainThread:622469 [wandb_setup.py:_flush():76] Loading settings from /home/reroes/Dropbox/personal/clasesUTPL/GUIAS/GUIA-IA-MAESTRIA/EJEMPLOS/3.2.2_1Weights-Biases/wandb/settings
+2024-02-07 19:35:55,903 INFO    MainThread:622469 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-02-07 19:35:55,903 INFO    MainThread:622469 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-02-07 19:35:55,903 INFO    MainThread:622469 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'demo.py', 'program_abspath': '/home/reroes/Dropbox/personal/clasesUTPL/GUIAS/GUIA-IA-MAESTRIA/EJEMPLOS/3.2.2_1Weights-Biases/demo.py', 'program': '/home/reroes/Dropbox/personal/clasesUTPL/GUIAS/GUIA-IA-MAESTRIA/EJEMPLOS/3.2.2_1Weights-Biases/demo.py'}
+2024-02-07 19:35:55,903 INFO    MainThread:622469 [wandb_init.py:_log_setup():526] Logging user logs to /home/reroes/Dropbox/personal/clasesUTPL/GUIAS/GUIA-IA-MAESTRIA/EJEMPLOS/3.2.2_1Weights-Biases/wandb/run-20240207_193555-jyvuzjy6/logs/debug.log
+2024-02-07 19:35:55,903 INFO    MainThread:622469 [wandb_init.py:_log_setup():527] Logging internal logs to /home/reroes/Dropbox/personal/clasesUTPL/GUIAS/GUIA-IA-MAESTRIA/EJEMPLOS/3.2.2_1Weights-Biases/wandb/run-20240207_193555-jyvuzjy6/logs/debug-internal.log
+2024-02-07 19:35:55,903 INFO    MainThread:622469 [wandb_init.py:init():566] calling init triggers
+2024-02-07 19:35:55,903 INFO    MainThread:622469 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+2024-02-07 19:35:55,903 INFO    MainThread:622469 [wandb_init.py:init():616] starting backend
+2024-02-07 19:35:55,904 INFO    MainThread:622469 [wandb_init.py:init():620] setting up manager
+2024-02-07 19:35:55,905 INFO    MainThread:622469 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-02-07 19:35:55,906 INFO    MainThread:622469 [wandb_init.py:init():628] backend started and connected
+2024-02-07 19:35:55,907 INFO    MainThread:622469 [wandb_init.py:init():720] updated telemetry
+2024-02-07 19:35:55,911 INFO    MainThread:622469 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-02-07 19:35:56,597 INFO    MainThread:622469 [wandb_run.py:_on_init():2262] communicating current version
+2024-02-07 19:35:57,029 INFO    MainThread:622469 [wandb_run.py:_on_init():2271] got version response 
+2024-02-07 19:35:57,029 INFO    MainThread:622469 [wandb_init.py:init():804] starting run threads in backend
+2024-02-07 19:35:57,061 INFO    MainThread:622469 [wandb_run.py:_console_start():2241] atexit reg
+2024-02-07 19:35:57,061 INFO    MainThread:622469 [wandb_run.py:_redirect():2096] redirect: wrap_raw
+2024-02-07 19:35:57,062 INFO    MainThread:622469 [wandb_run.py:_redirect():2161] Wrapping output streams.
+2024-02-07 19:35:57,062 INFO    MainThread:622469 [wandb_run.py:_redirect():2186] Redirects installed.
+2024-02-07 19:35:57,062 INFO    MainThread:622469 [wandb_init.py:init():847] run started, returning control to user process
+2024-02-07 19:35:57,062 INFO    MainThread:622469 [wandb_run.py:_config_callback():1343] config_cb None None {'test_size': 0.2, 'train_len': 455, 'test_len': 114}
+2024-02-07 19:35:57,063 INFO    MainThread:622469 [wandb_run.py:_config_callback():1343] config_cb ('_wandb', 'viz', 'class_proportions') {'id': 'wandb/class_proportions/v1', 'historyFieldSettings': {'x-axis': '_step', 'key': 'class_proportions'}} None
+2024-02-07 19:35:59,664 INFO    MainThread:622469 [wandb_run.py:_config_callback():1343] config_cb ('_wandb', 'viz', 'learning_curve') {'id': 'wandb/learning_curve/v1', 'historyFieldSettings': {'x-axis': '_step', 'key': 'learning_curve'}} None
+2024-02-07 19:36:00,024 INFO    MainThread:622469 [wandb_run.py:_config_callback():1343] config_cb ('_wandb', 'viz', 'roc') {'id': 'wandb/roc/v1', 'historyFieldSettings': {'x-axis': '_step', 'key': 'roc'}} None
+2024-02-07 19:36:00,311 INFO    MainThread:622469 [wandb_run.py:_config_callback():1343] config_cb ('_wandb', 'viz', 'precision_recall') {'id': 'wandb/pr_curve/v1', 'historyFieldSettings': {'x-axis': '_step', 'key': 'precision_recall'}} None
+2024-02-07 19:36:00,913 INFO    MainThread:622469 [wandb_run.py:_config_callback():1343] config_cb ('_wandb', 'viz', 'feature_importances') {'id': 'wandb/feature_importances/v1', 'historyFieldSettings': {'x-axis': '_step', 'key': 'feature_importances'}} None
+2024-02-07 19:36:10,929 INFO    MainThread:622469 [wandb_run.py:_finish():1970] finishing run reroes-team/my-awesome-project/jyvuzjy6
+2024-02-07 19:36:10,929 INFO    MainThread:622469 [wandb_run.py:_atexit_cleanup():2210] got exitcode: 0
+2024-02-07 19:36:10,929 INFO    MainThread:622469 [wandb_run.py:_restore():2193] restore
+2024-02-07 19:36:10,929 INFO    MainThread:622469 [wandb_run.py:_restore():2199] restore done
+2024-02-07 19:36:19,033 INFO    MainThread:622469 [wandb_run.py:_footer_history_summary_info():3866] rendering history
+2024-02-07 19:36:19,033 INFO    MainThread:622469 [wandb_run.py:_footer_history_summary_info():3898] rendering summary
+2024-02-07 19:36:19,038 INFO    MainThread:622469 [wandb_run.py:_footer_sync_info():3825] logging synced files
